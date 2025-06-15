@@ -36,7 +36,7 @@ This repository contains a **production-grade Flutter app** demonstrating best p
 
 ## 📁 Folder Structure
 
-
+'''
 lib/
 ├── main.dart
 ├── app.dart
@@ -51,7 +51,7 @@ lib/
 │ ├── settings_page.dart
 ├── routes/
 │ └── route_names.dart
-
+'''
 
 ## ⚙️ Setup Instructions
 
