@@ -34,28 +34,9 @@ This repository contains a **production-grade Flutter app** demonstrating best p
 
 ---
 
-## 📁 Folder Structure
-
-'''
-lib/
-├── main.dart
-├── app.dart
-├── core/
-│ ├── localization_provider.dart
-│ ├── theme_provider.dart
-├── l10n/
-│ ├── app_en.arb
-│ ├── app_bn.arb
-├── pages/
-│ ├── home_page.dart
-│ ├── settings_page.dart
-├── routes/
-│ └── route_names.dart
-'''
-
 ## ⚙️ Setup Instructions
 
-# Flow the Documentation
+Flow the Documentation
 
 ## 🧪 Testing
 Change system language or toggle inside the app to see dynamic localization.
