@@ -1,16 +1,65 @@
-# flutter_l10n_localization
+# 🌍 Flutter Localization Boilerplate App
 
-A new Flutter project.
+This repository contains a **production-grade Flutter app** demonstrating best practices for implementing **multi-language localization (l10n)** using Flutter's built-in tools.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📄 Documentation
 
-A few resources to get you started if this is your first Flutter project:
+📘 [Read Full Localization Guide on Google Docs](https://docs.google.com/document/d/1Mh2XiJh6WEHyPRF_K-5gBVEAg6mBLcbItTplOapKL3k/edit?usp=sharing)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Features
+
+- ✅ Internationalization with `intl` and `.arb` files
+- ✅ Language switching support
+- ✅ Persistent locale using `shared_preferences`
+- ✅ Responsive and accessible UI
+- ✅ Light & dark mode support
+- ✅ Route constants and organized structure
+- ✅ Provider-based state management
+- ✅ CI/CD-ready localization configuration
+
+---
+
+## 📦 Packages Used
+
+| Package              | Purpose                              |
+|----------------------|--------------------------------------|
+| `flutter_localizations` | Core Flutter localization support |
+| `intl`               | Manage ARB translations             |
+| `provider`           | State management                    |
+| `shared_preferences` | Persist selected locale             |
+
+---
+
+## 📁 Folder Structure
+
+
+lib/
+├── main.dart
+├── app.dart
+├── core/
+│ ├── localization_provider.dart
+│ ├── theme_provider.dart
+├── l10n/
+│ ├── app_en.arb
+│ ├── app_bn.arb
+├── pages/
+│ ├── home_page.dart
+│ ├── settings_page.dart
+├── routes/
+│ └── route_names.dart
+
+
+## ⚙️ Setup Instructions
+
+# Flow the Documentation
+
+## 🧪 Testing
+Change system language or toggle inside the app to see dynamic localization.
+
+
+📌 License
+MIT © 2025 – Faisal Ahamed
